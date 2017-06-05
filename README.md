@@ -48,4 +48,4 @@ Server:
  OS/Arch:      linux/amd64
  Experimental: true
  ```
-![](https://https://github.com/hellohelloye/srechallenge/blob/master/result.png)
+![](result.png)
