@@ -1,6 +1,7 @@
 # srechallenge
 Run a web server through Docker, Dockerfile, docker build, docker run
 
+![](result.png)
 
 Create and deploy a running instance of a web server using a Docker container. The web server serve one web page. Making http request to port 9000, mapping to port 80 in the container. 
 
@@ -48,4 +49,4 @@ Server:
  OS/Arch:      linux/amd64
  Experimental: true
  ```
-![](result.png)
+
