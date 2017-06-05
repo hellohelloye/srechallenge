@@ -1,6 +1,13 @@
 # srechallenge
 Run a web server through Docker, Dockerfile, docker build, docker run
 
+
+Create and deploy a running instance of a web server using a Docker container. The web server serve one web page. Making http request to port 9000, mapping to port 80 in the container. 
+
+* Create a Dockerfile to generate a new Docker image based on the NGINX image from Doker Hub in order to display the web page index.html file. 
+* Create NGINX image by running command from the directory where the Dockerfile located: docker build -t srechallenge . 
+* Create the container using the image by running the command: docker run -p 9000:80 srechallenge 
+
 ```
 Yukuis-MacBook:srechallenge Yukui_Ye$ ls
 Dockfile	index.html
